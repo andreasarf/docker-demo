@@ -2,7 +2,7 @@ services:
   app:
     build:
       context: .
-    container_name: docker-app-21
+    container_name: docker-app-17
     environment:
       - SPRING_PROFILES_ACTIVE=local
 
